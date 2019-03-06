@@ -4,7 +4,7 @@ let wait = function (ms) {
 
 const puppeteer = require('puppeteer');
 
-let scrappingUrl = 'https://members.drbeen.com/login';
+let scrappingUrl = 'url you want to scrap';
 (async () => {
     const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
