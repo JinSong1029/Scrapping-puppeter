@@ -76,6 +76,5 @@ let scrappingUrl = 'url you want to scrap';
         return result;
     });
 
-    // console.dir(scrapeData.domElements[1].inputGroup);
     console.dir(scrapeData);
 })();
