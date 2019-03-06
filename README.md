@@ -20,3 +20,10 @@ Puppeter package
 Lazy loading
 
     https://gist.github.com/schnerd/b550b7c05d4a57d8374082aaae714881
+
+
+## Work Flow
+
+1. Get full html code from website
+2. Go through all div elements and find count of input elements within it with class name
+3. Export data as json to console
